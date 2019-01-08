@@ -6,7 +6,7 @@
 
 ### Introduction
 
-The Navigation project trains an agent to navigate (and collect bananas!) in a large, square world as in the image below. The challenge is part of the Unity environment (https://unity3d.com/machine-learning).
+The Navigation project trains an agent to navigate (and collect bananas!) in a large, square world as in the image below. The challenge is part of the Unity environment (https://unity3d.com/machine-learning). The baseline of the code to solve the problem was provided by Udacity in their repository: https://github.com/udacity/deep-reinforcement-learning.git
 
 ![Trained Agent][image1]
 
