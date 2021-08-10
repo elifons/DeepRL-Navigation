@@ -10,6 +10,8 @@ This project trains an agent to navigate (and collect bananas!) in a large, squa
 
 ### Installation
 
+Create environment using the requirements.txt file. The code was developed in Python 3.6 and requires tensorflow==1.7.1.
+
 1. Clone repository:
 
 ```
@@ -42,5 +44,27 @@ The task is episodic, and the environment is considered solved when the agent ge
 
 ### Getting started
 
-Follow the instructions in `Navigation_notebook.ipynb` to get started with training your own agent!  
+Example command to run the code.
+
+```
+$ python3 main.py --dest exp_dqn --n_episodes 1500
+```
+
+Or you can follow the in structions in `Navigation_notebook.ipynb` to get started with training your own agent!   
+
+**optional arguments:**
+
+```
+  --n_episodes N_EPISODES
+                        max number of training episodes (default: 500)
+  --max_t MAX_T         max. number of timesteps per episode (default: 1000)
+  --eps_start EPS_START
+                        starting value of epsilon, for epsilon-greedy action
+                        selection (default: 1.0)
+  --eps_end EPS_END     minimum value of epsilon (default: 0.01)
+  --eps_decay EPS_DECAY
+                        multiplicative factor (per episode) for decreasing
+                        epsilon (default: 0.995)
+  --dest DEST           experiment dir (default: runs)
+```
 
