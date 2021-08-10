@@ -1,6 +1,6 @@
 from unityagents import UnityEnvironment
 import numpy as np
-from dqn_agent import Agent
+from utils.dqn_agent import Agent
 from collections import deque
 import torch
 import matplotlib.pyplot as plt

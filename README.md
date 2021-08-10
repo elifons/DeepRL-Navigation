@@ -2,9 +2,9 @@
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
-# Reinforcement Learning: Navigation
+# Reinforcement Learning: DQN for Navigation
 
-This project trains an agent to navigate (and collect bananas!) in a large, square world as in the image below. The challenge is part of the Unity environment (https://unity3d.com/machine-learning). 
+This project shows how to train a DQN (Deep Q Networks) agent  to navigate (and collect bananas!) in a large, square world as in the image below. The challenge is part of the Unity environment (https://unity3d.com/machine-learning). 
 
 ![Trained Agent][image1]
 
